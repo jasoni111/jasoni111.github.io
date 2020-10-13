@@ -1,0 +1,26 @@
+body {
+	font-family: "Trebuchet MS", "Helvetica", "Arial", "Verdana", "sans-serif";
+	font-size: 62.5%;
+}
+
+
+.ui-autocomplete-term {
+	color: blue;
+	font-weight: normal;
+}
+
+.ui-autocomplete-category {
+	/* Discplay category in red color */
+	color: red;
+	font-weight: bold;
+}
+
+.ui-autocomplete {
+	font-size: 20px;
+	max-height: 300px;
+	overflow-x: hidden;
+	/* for scrolling */
+	overflow-y: auto;
+	width: auto;
+	font-weight: bold;
+}
