@@ -537,7 +537,7 @@ function isString(s) {
 
 function promptUserName() {
 
-    let userID = getCookie("USERID");
+    userID = getCookie("USERID");
     if (userID===null ||userID=="null" ) {
         console.log("lel");
         userID = "Anonymous";
